@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 
-void	ft_print_comb(void)
+int main(void)	
 	{
 		int	a;
 		int	b;
@@ -31,4 +31,5 @@ void	ft_print_comb(void)
 			}
 			a++;
 		}
+	return (0);
 	}
